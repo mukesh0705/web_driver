@@ -23,7 +23,7 @@ public class Handling_keyboard {
 		 Thread.sleep(5000);
 		 aws.sendKeys(Keys.ARROW_DOWN).perform();
 		 Thread.sleep(5000);
-		 aws.sendKeys(Keys.ARROW_DOWN).perform();
+		 aws.sendKeys(Keys.ARROW_UP).perform();
 		 Thread.sleep(5000);
 		 aws.sendKeys(Keys.ENTER).perform();
 		 Thread.sleep(5000);
